@@ -1,4 +1,5 @@
 .header {
+  font-family: "Shadows Into Light";
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,7 +9,6 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: rgba(126, 122, 122, 0.074);
 }
 
 .header__logo {
@@ -40,8 +40,8 @@
 }
 
 .header__nav a {
-  color: #000;
-  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.815);
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
@@ -51,7 +51,7 @@
 
 .header__auth a {
   margin-left: 1.5rem;
-  color: #000;
+  color: rgba(0, 0, 0, 0.815);
   font-size: 1.6rem;
   text-decoration: none;
 }
@@ -62,4 +62,15 @@
 
 .header__auth a:first-child {
   margin-left: 0;
+}
+.header-nav-search {
+  margin-right: 60px;
+  cursor: pointer;
+}
+.header-nav-shopping-card {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.login-navBar {
+  margin-right: 40px;
 }

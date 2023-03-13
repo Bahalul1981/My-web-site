@@ -36,10 +36,15 @@ function Header() {
         </nav>
 
         <div className="header__auth">
-          <NavLink to="/register" className="order-card">
-            <Icon icon="shopping-cart" iconSize={22} />
+          <Icon icon="search" iconSize={22} className="header-nav-search" />
+          <Icon
+            icon="shopping-cart"
+            iconSize={22}
+            className="header-nav-shopping-card"
+          />
+          <NavLink to="/login-reg" className="login-navBar">
+            Login
           </NavLink>
-          <NavLink to="/login">Login</NavLink>
         </div>
       </header>
     </div>

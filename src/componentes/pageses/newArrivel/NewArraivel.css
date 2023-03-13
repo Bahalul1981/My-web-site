@@ -1,0 +1,36 @@
+.all-new-collections {
+  color: rgba(0, 0, 0, 0.671);
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.under-home-page {
+  background-color: rgba(243, 239, 213, 0.165);
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.display-all-new-collections {
+  text-align: center;
+  justify-content: space-between;
+  width: 300px;
+  margin: 30px;
+  background-color: rgba(65, 68, 68, 0.112);
+}
+.all-new-products-informations {
+  margin-top: 50px;
+  margin: 30px;
+}
+
+.add-to-card-btn {
+  height: 50px;
+  width: 150px;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}

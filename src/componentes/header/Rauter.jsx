@@ -8,6 +8,7 @@ import Man from "../pageses/man/Man";
 import Woman from "../pageses/woman/Woman";
 import Kids from "../pageses/kids/Kids";
 import Gift from "../pageses/gift-pack/Gift";
+import Login from "../pageses/login/Login";
 function Rauter() {
   return (
     <div>
@@ -18,6 +19,7 @@ function Rauter() {
           <Route path="/woman" element={<Woman />} />
           <Route path="/kids" element={<Kids />} />
           <Route path="/gift-pack" element={<Gift />} />
+          <Route path="/login-reg" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

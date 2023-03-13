@@ -1,7 +1,45 @@
-.video-background {
+.home-video-page {
+  position: relative;
+  height: 600px;
+}
+.home-video-page video {
   position: absolute;
+  top: 0;
   left: 0;
   width: 100%;
-  height: 80%;
+  height: 100%;
   object-fit: cover;
+}
+.home-video-page h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 1;
+}
+.touch-your-dreem-by-your-own-dreem {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.816);
+  font-family: "Shadows Into Light", cursive;
+}
+
+.lets-start-in-landing-page {
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  font-size: 1rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 1;
+  border-color: white;
+}
+.under-home-page h1 {
+  margin: 0;
 }
