@@ -1,0 +1,27 @@
+.footer-main-div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+}
+.footer-quick-links,
+.footer-info-div,
+.footer-text-our-mission {
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  width: 400px;
+  height: 100%;
+  text-align: center;
+}
+
+nav,
+ul,
+li {
+  margin: 30px;
+}
+
+.footer-Navlink {
+  color: black;
+}

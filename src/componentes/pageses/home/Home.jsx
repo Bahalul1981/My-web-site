@@ -3,6 +3,7 @@ import "./Home.css";
 import Header from "../../header/Header";
 import Videofile from "../../property/video/home-page.MP4";
 import NewArraivel from "../newArrivel/NewArraivel";
+import Footer from "../../footer/Footer";
 function Home() {
   return (
     <div className="home-main-body">
@@ -19,6 +20,7 @@ function Home() {
         </div>
       </div>
       <NewArraivel />
+      <Footer />
     </div>
   );
 }
