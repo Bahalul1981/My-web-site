@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./NewArraivel.css";
-function NewArraivel() {
+
+export const NewArraivel = () => {
   const [newProducts, setNewProducts] = useState([]);
   useEffect(() => {
     async function getFakeApi() {
@@ -39,6 +40,4 @@ function NewArraivel() {
       </div>
     </div>
   );
-}
-
-export default NewArraivel;
+};

@@ -2,9 +2,9 @@ import React from "react";
 import "./Home.css";
 import Header from "../../header/Header";
 import Videofile from "../../property/video/home-page.MP4";
-import NewArraivel from "../newArrivel/NewArraivel";
 import Footer from "../../footer/Footer";
-function Home() {
+import { NewArraivel } from "../newArrivel/NewArraivel";
+export const Home = () => {
   return (
     <div className="home-main-body">
       <Header />
@@ -23,6 +23,4 @@ function Home() {
       <Footer />
     </div>
   );
-}
-
-export default Home;
+};

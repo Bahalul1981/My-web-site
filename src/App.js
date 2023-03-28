@@ -1,5 +1,4 @@
-import "./App.css";
-import Rauter from "./componentes/header/Rauter";
+import Rauter from "./componentes/rauter/Rauter";
 
 function App() {
   return (
