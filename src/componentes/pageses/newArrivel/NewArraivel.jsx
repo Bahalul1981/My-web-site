@@ -22,8 +22,8 @@ export const NewArraivel = () => {
         Ckeckout all of our new collections
       </h1>
       <div className="under-home-page">
-        {newProducts.map((res) => (
-          <div className="display-all-new-collections">
+        {newProducts.map((res, key) => (
+          <div className="display-all-new-collections" id={key}>
             <img
               src={res.image}
               alt={res.title}

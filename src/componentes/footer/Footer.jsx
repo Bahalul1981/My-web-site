@@ -1,10 +1,57 @@
-import React from "react";
+import { React, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./footer.css";
+import "../../App.css";
 function Footer() {
+  const [showAbout, setShowAbout] = useState(false);
+  const [showContact, setShowContact] = useState(false);
+  const [showShipping, setShowShipping] = useState(false);
+  const [showBlog, setShowBlog] = useState(false);
+
   return (
     <>
       <hr />
+      {showAbout && (
+        <div>
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+            inventore est at laborum illo quia a ducimus beatae vero mollitia
+            quam eum quae, provident praesentium unde ea eveniet ex nostrum.
+          </p>
+        </div>
+      )}
+      {showContact && (
+        <div>
+          <h3>Contact</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+            inventore est at laborum illo quia a ducimus beatae vero mollitia
+            quam eum quae, provident praesentium unde ea eveniet ex nostrum.
+          </p>
+        </div>
+      )}
+      {showShipping && (
+        <div>
+          <h3>Shipping policy</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+            inventore est at laborum illo quia a ducimus beatae vero mollitia
+            quam eum quae, provident praesentium unde ea eveniet ex nostrum.
+          </p>
+        </div>
+      )}
+      {showBlog && (
+        <div>
+          <h3>Blogg</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+            inventore est at laborum illo quia a ducimus beatae vero mollitia
+            quam eum quae, provident praesentium unde ea eveniet ex nostrum.
+          </p>
+        </div>
+      )}
+
       <div className="footer-main-div">
         <div className="footer-quick-links">
           <h3 className="quick-link">Quick Links</h3>
@@ -46,11 +93,23 @@ function Footer() {
           <div className="under-quick-links">
             <h3>Info</h3>
           </div>
-          <div className="under-quick-links">About</div>
-          <div className="under-quick-links">Contact us</div>
-          <div className="under-quick-links">About us</div>
-          <div className="under-quick-links">Shipping policy</div>
-          <div className="under-quick-links">Blog</div>
+          <ul>
+            <li style={{ cursor: "pointer" }}>
+              <p onClick={() => setShowAbout(true)}>About</p>
+            </li>
+            <li style={{ cursor: "pointer" }}>
+              <p onClick={() => setShowContact(true)}>Contact us</p>
+            </li>
+            <li style={{ cursor: "pointer" }}>
+              <p onClick={() => setShowShipping(true)}>Shipping policy</p>
+            </li>
+            <li style={{ cursor: "pointer" }}>
+              <p onClick={() => setShowBlog(true)}>Blog</p>
+            </li>
+            <li style={{ cursor: "pointer" }}>
+              <p onClick={() => setShowBlog(true)}>Blog</p>
+            </li>
+          </ul>
         </div>
         <div className="footer-text-our-mission">
           <div className="footer-our-mission">
@@ -64,11 +123,11 @@ function Footer() {
           </div>
         </div>
         <div className="social-media-icons-in-footer">
-          <div className=""></div>
-          <div className=""></div>
-          <div className=""></div>
-          <div className=""></div>
-          <div className=""></div>
+          <div className="">Jello</div>
+          <div className="">Jello</div>
+          <div className="">Jello</div>
+          <div className="">Jello</div>
+          <div className="">Jello</div>
         </div>
       </div>
     </>
