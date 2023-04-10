@@ -25,3 +25,32 @@ li {
 .footer-Navlink {
   color: black;
 }
+.copyright-bottom {
+  text-align: center;
+  margin-top: 40px;
+}
+.footer-info-link-div {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footer-info-blogg,
+.footer-info-about,
+.footer-info-contact,
+.footer-info-shipping {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(3, 47, 3, 0.077);
+  padding: 100px;
+  position: relative;
+  right: -100%; /* Start the div off-screen to the right */
+  animation: slide-in 1s forwards; /* Apply the slide-in animation */
+}
+
+@keyframes slide-in {
+  0% {
+    right: -100%; /* Start the div off-screen to the right */
+  }
+  100% {
+    right: 0%; /* Slide the div in to the center */
+  }
+}

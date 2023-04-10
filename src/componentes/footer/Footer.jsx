@@ -9,49 +9,50 @@ function Footer() {
   const [showBlog, setShowBlog] = useState(false);
 
   return (
-    <>
-      <hr />
-      {showAbout && (
-        <div>
-          <h3>About</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            inventore est at laborum illo quia a ducimus beatae vero mollitia
-            quam eum quae, provident praesentium unde ea eveniet ex nostrum.
-          </p>
-        </div>
-      )}
-      {showContact && (
-        <div>
-          <h3>Contact</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            inventore est at laborum illo quia a ducimus beatae vero mollitia
-            quam eum quae, provident praesentium unde ea eveniet ex nostrum.
-          </p>
-        </div>
-      )}
-      {showShipping && (
-        <div>
-          <h3>Shipping policy</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            inventore est at laborum illo quia a ducimus beatae vero mollitia
-            quam eum quae, provident praesentium unde ea eveniet ex nostrum.
-          </p>
-        </div>
-      )}
-      {showBlog && (
-        <div>
-          <h3>Blogg</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            inventore est at laborum illo quia a ducimus beatae vero mollitia
-            quam eum quae, provident praesentium unde ea eveniet ex nostrum.
-          </p>
-        </div>
-      )}
-
+    <div>
+      <div className="footer-info-link-div">
+        <hr />
+        {showAbout && (
+          <div className="footer-info-about">
+            <h3>About</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              inventore est at laborum illo quia a ducimus beatae vero mollitia
+              quam eum quae, provident praesentium unde ea eveniet ex nostrum.
+            </p>
+          </div>
+        )}
+        {showContact && (
+          <div className="footer-info-contact">
+            <h3>Contact</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              inventore est at laborum illo quia a ducimus beatae vero mollitia
+              quam eum quae, provident praesentium unde ea eveniet ex nostrum.
+            </p>
+          </div>
+        )}
+        {showShipping && (
+          <div className="footer-info-shipping">
+            <h3>Shipping policy</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              inventore est at laborum illo quia a ducimus beatae vero mollitia
+              quam eum quae, provident praesentium unde ea eveniet ex nostrum.
+            </p>
+          </div>
+        )}
+        {showBlog && (
+          <div className="footer-info-blogg">
+            <h3>Blogg</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              inventore est at laborum illo quia a ducimus beatae vero mollitia
+              quam eum quae, provident praesentium unde ea eveniet ex nostrum.
+            </p>
+          </div>
+        )}
+      </div>
       <div className="footer-main-div">
         <div className="footer-quick-links">
           <h3 className="quick-link">Quick Links</h3>
@@ -119,18 +120,39 @@ function Footer() {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nihil
             ipsa veritatis facilis aperiam recusandae sunt ipsum animi amet sed
             consequuntur minus, a error maxime perferendis voluptatum quo cum
-            nostrum.
+            nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Totam neque assumenda magni fugiat dolorum sit nulla temporibus.
+            Aperiam dolores autem et exercitationem. Eaque fuga molestiae
+            consectetur adipisci nemo sunt omnis!
           </div>
         </div>
-        <div className="social-media-icons-in-footer">
-          <div className="">Jello</div>
-          <div className="">Jello</div>
-          <div className="">Jello</div>
-          <div className="">Jello</div>
-          <div className="">Jello</div>
+        <div className="footer-text-our-mission">
+          <div className="footer-our-mission">
+            <h3>Social media link</h3>
+          </div>
+          <div className="footer-our-mission-text">
+            <li>
+              <a href="*">Face Book</a>
+            </li>
+            <li>
+              <a href="*">Face Book</a>
+            </li>
+            <li>
+              <a href="*">Face Book</a>
+            </li>
+            <li>
+              <a href="*">Face Book</a>
+            </li>
+            <li>
+              <a href="*">Face Book</a>
+            </li>
+          </div>
         </div>
       </div>
-    </>
+      <p className="copyright-bottom">
+        Copyright © 2022 made by Dewan Fashion hub
+      </p>
+    </div>
   );
 }
 

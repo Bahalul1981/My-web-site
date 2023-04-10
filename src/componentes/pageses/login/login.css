@@ -1,0 +1,68 @@
+.login-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+}
+
+.login,
+.registration {
+  background-color: rgba(3, 47, 3, 0.006);
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 700px;
+  max-width: 90%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
+}
+
+.login h1,
+.registration h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login form,
+.registration form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login form label,
+.registration form label {
+  margin-top: 10px;
+}
+
+.login form input,
+.registration form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #0c361318;
+}
+
+.login form button,
+.registration form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6b9b6e;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login form button:hover,
+.registration form button:hover {
+  background-color: #4e704f;
+}
+
+.login p {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
