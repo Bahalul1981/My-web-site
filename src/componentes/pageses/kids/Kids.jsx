@@ -1,11 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../../header/Header";
 
 export const Kids = () => {
+  const [tere, setTere] = useState("");
+  const deleteiteam = [
+    { name: "bahalul", age: 32, ocupation: "It" },
+    { name: "alvin", age: 1, ocupation: "Not yet" },
+    { name: "Farhana", age: 32, ocupation: "teacher" },
+  ];
+  const deleteiteams = (e) => {
+    console.log(e);
+  };
   return (
     <div>
       <Header />
-      <h1>This is kids page</h1>
+      {deleteiteam.map((elem) => {
+        return (
+          <div>
+            <h2>
+              Name: {elem.name}
+              <br />
+              Age: {elem.age}
+              <br />
+              Occupation: {elem.ocupation}
+              <button onClick={() => deleteiteams(elem)}>Delete</button>
+            </h2>
+          </div>
+        );
+      })}
     </div>
   );
 };
