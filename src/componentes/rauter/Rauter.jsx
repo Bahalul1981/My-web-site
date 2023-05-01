@@ -4,7 +4,7 @@ import "../header/Header.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "../pageses/home/Home";
-import { Man } from "../pageses/man/Man";
+import { Men } from "../pageses/men/Men";
 import { Woman } from "../pageses/woman/Woman";
 import { Kids } from "../pageses/kids/Kids";
 import { Gift } from "../pageses/gift-pack/Gift";
@@ -15,7 +15,7 @@ function Rauter() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/man" element={<Man />} />
+          <Route path="/men" element={<Men />} />
           <Route path="/woman" element={<Woman />} />
           <Route path="/kids" element={<Kids />} />
           <Route path="/gift-pack" element={<Gift />} />

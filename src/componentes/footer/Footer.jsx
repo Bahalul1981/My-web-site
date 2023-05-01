@@ -65,8 +65,8 @@ function Footer() {
               </li>
 
               <li>
-                <NavLink className="footer-Navlink" to="/man">
-                  Man
+                <NavLink className="footer-Navlink" to="/men">
+                  Men
                 </NavLink>
               </li>
 

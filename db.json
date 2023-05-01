@@ -1,0 +1,32 @@
+{
+  "men": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "price": 45,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
+      "email": "john.doe@example.com",
+      "image": "/property/image/men/alvin.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "price": 45,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
+      "email": "jane.doe@example.com",
+      "image": "/property/image/men/dawn.jpg"
+    }
+  ],
+  "woman": [
+    {
+      "id": 3,
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com"
+    }
+  ]
+}

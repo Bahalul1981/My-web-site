@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import Header from "../../header/Header";
-import Videofile from "../../property/video/home-page.MP4";
 import Footer from "../../footer/Footer";
 import { NewArraivel } from "../newArrivel/NewArraivel";
 export const Home = () => {
@@ -10,7 +9,10 @@ export const Home = () => {
       <Header />
       <div className="home-video-page">
         <video autoPlay loop muted className="video-background">
-          <source src={Videofile} type="video/mp4" />
+          <source
+            src={process.env.PUBLIC_URL + "property/video/home-page.MP4"}
+            type="video/mp4"
+          />
         </video>
         <div className="touch your dreem">
           <h1 className="touch-your-dreem-by-your-own-dreem">

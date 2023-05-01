@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Header from "../../header/Header";
 import "./login.css";
 import { useDispatch } from "react-redux";
 import { setUser } from "../../state/user/userSlice";
-import { Home } from "../home/Home";
 
 export const Login = () => {
   const dispatch = useDispatch();
@@ -16,7 +15,6 @@ export const Login = () => {
     password: "",
   });
 
-  const [loggedInUser, setLoggedInUser] = useState(false);
   const [alertMessage, setAlertMessage] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 

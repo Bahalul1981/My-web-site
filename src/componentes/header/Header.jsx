@@ -1,6 +1,5 @@
 import "./Header.css";
 import { NavLink } from "react-router-dom";
-import logo from "../property/image/logo.png";
 import { Icon } from "@blueprintjs/core";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
@@ -35,7 +34,10 @@ function Header() {
     <div>
       <header className="header__main-div">
         <div className="header__logo">
-          <img src={logo} alt="Logo" />
+          <img
+            src={process.env.PUBLIC_URL + "/property/image/logo.png"}
+            alt="Logo"
+          />
         </div>
 
         <nav
@@ -51,8 +53,8 @@ function Header() {
             </li>
 
             <li>
-              <NavLink to="/man" onClick={handleMobileMenuClick}>
-                Man
+              <NavLink to="/men" onClick={handleMobileMenuClick}>
+                Men
               </NavLink>
             </li>
 
@@ -72,6 +74,12 @@ function Header() {
               <NavLink to="/gift-pack" onClick={handleMobileMenuClick}>
                 Gift pack
               </NavLink>
+            </li>
+            <li>
+              <Icon icon="search" />
+            </li>
+            <li>
+              <Icon icon="shopping- cart" />
             </li>
           </ul>
         </nav>
