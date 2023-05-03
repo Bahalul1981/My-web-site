@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Header from "../../header/Header";
 import "./men.css";
+import { useDispatch } from "react-redux";
 
 export const Men = () => {
+  const dispatch = useDispatch();
   const [menData, setMenData] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
+
+  function additeam() {}
 
   useEffect(() => {
     async function getMenData() {
@@ -56,7 +60,7 @@ export const Men = () => {
             />
             <p>{selectedProduct.description}</p>
             <p>{selectedProduct.price}</p>
-            <button onClick={addToCart}>Add to Cart</button>
+            <button onClick={additeam}>Add to Cart</button>
           </div>
         </div>
       )}

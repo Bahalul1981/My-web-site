@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "../../header/Header";
 import "./login.css";
 import { useDispatch } from "react-redux";
-import { setUser } from "../../state/user/userSlice";
+import { setUser } from "../../state/userSlice";
 
 export const Login = () => {
   const dispatch = useDispatch();

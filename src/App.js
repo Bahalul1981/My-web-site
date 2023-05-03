@@ -1,6 +1,6 @@
 import Rauter from "./componentes/rauter/Rauter";
 import { Provider } from "react-redux";
-import store from "./componentes/state/user/store";
+import store from "./componentes/state/store";
 function App() {
   return (
     <Provider store={store}>

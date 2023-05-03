@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 import { Icon } from "@blueprintjs/core";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
-import { setUser } from "../state/user/userSlice";
+import { setUser } from "../state/userSlice";
+import { AddToCart } from "./AddToCart";
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -76,10 +77,10 @@ function Header() {
               </NavLink>
             </li>
             <li>
-              <Icon icon="search" />
+              <AddToCart />
             </li>
-            <li>
-              <Icon icon="shopping- cart" />
+            <li style={{ cursor: "pointer" }}>
+              <Icon icon="search" />
             </li>
           </ul>
         </nav>

@@ -149,9 +149,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p className="copyright-bottom">
-        Copyright © 2022 made by Dewan Fashion hub
-      </p>
+      <p className="copyright-bottom">Copyright © 2023 Dewan Fashion hub</p>
     </div>
   );
 }
