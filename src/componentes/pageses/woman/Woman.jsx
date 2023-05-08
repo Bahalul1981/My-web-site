@@ -20,23 +20,21 @@ export const Woman = () => {
     fetchWomenData();
   }, []);
 
-  if (isLoading) {
-    return (
-      <div style={{ fontSize: "2rem", textAlign: "center" }}>
-        Page loading...
-      </div>
-    );
-  }
-
   return (
     <div>
       <Header />
-      {womenData.map((product) => (
-        <div key={product.id}>
-          <h2>{product.name}</h2>
-          <p>{product.email}</p>
+      {isLoading ? (
+        <div style={{ fontSize: "2rem", textAlign: "center" }}>
+          Page loading...
         </div>
-      ))}
+      ) : (
+        womenData.map((product) => (
+          <div key={product.id}>
+            <h2>{product.name}</h2>
+            <p>{product.email}</p>
+          </div>
+        ))
+      )}
     </div>
   );
 };

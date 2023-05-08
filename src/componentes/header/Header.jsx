@@ -4,7 +4,6 @@ import { Icon } from "@blueprintjs/core";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 import { setUser } from "../state/userSlice";
-import { AddToCart } from "./AddToCart";
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -76,8 +75,10 @@ function Header() {
                 Gift pack
               </NavLink>
             </li>
-            <li>
-              <AddToCart />
+            <li style={{ cursor: "pointer" }}>
+              <NavLink to="/items" onClick={handleMobileMenuClick}>
+                <Icon icon="shopping-cart" />
+              </NavLink>
             </li>
             <li style={{ cursor: "pointer" }}>
               <Icon icon="search" />

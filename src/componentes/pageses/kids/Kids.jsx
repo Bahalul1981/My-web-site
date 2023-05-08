@@ -14,9 +14,9 @@ export const Kids = () => {
   return (
     <div>
       <Header />
-      {deleteiteam.map((elem) => {
+      {deleteiteam.map((elem, id) => {
         return (
-          <div>
+          <div key={id}>
             <h2>
               Name: {elem.name}
               <br />
