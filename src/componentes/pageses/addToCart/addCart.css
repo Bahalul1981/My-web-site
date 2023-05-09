@@ -44,54 +44,9 @@
   width: 100%;
   box-sizing: border-box;
 }
-/* .confirm-order {
-  padding: 10px;
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  font-weight: bold;
-  border-radius: 3px;
-  margin: 10px;
-  cursor: pointer;
-}
-.user-address-details {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.user-address-details form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-}
-
-.user-address-details div {
-  margin-bottom: 10px;
-}
-
-.user-address-details label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.user-address-details input[type="text"],
-.user-address-details input[type="email"],
-.user-address-details input[type="number"] {
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 16px;
-  width: 100%;
-  box-sizing: border-box;
-} */
 
 .user-address-details button[type="submit"] {
+  text-align: center;
   padding: 10px;
   background-color: #4caf50;
   border: none;

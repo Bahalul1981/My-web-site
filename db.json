@@ -2,19 +2,59 @@
   "men": [
     {
       "id": 1,
-      "name": "John Doe",
+      "name": "T-shirt",
       "price": 45,
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
       "email": "john.doe@example.com",
-      "image": "/property/image/men/alvin.jpg"
+      "image": "/property/image/men/tShirt.jpg"
     },
     {
       "id": 2,
-      "name": "Jane Doe",
-      "price": 45,
+      "name": "watch",
+      "price": 205,
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
       "email": "jane.doe@example.com",
-      "image": "/property/image/men/dawn.jpg"
+      "image": "/property/image/men/watch.jpg"
+    },
+    {
+      "id": 3,
+      "name": "shirt",
+      "price": 95,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
+      "email": "jane.doe@example.com",
+      "image": "/property/image/men/shirt.jpg"
+    },
+    {
+      "id": 4,
+      "name": "perfume",
+      "price": 303,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
+      "email": "jane.doe@example.com",
+      "image": "/property/image/men/perfume.jpg"
+    },
+    {
+      "id": 5,
+      "name": "summer jacket",
+      "price": 300,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
+      "email": "jane.doe@example.com",
+      "image": "/property/image/men/summerJacket.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Belt",
+      "price": 99,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
+      "email": "jane.doe@example.com",
+      "image": "/property/image/men/belt.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Sun glass",
+      "price": 299,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
+      "email": "jane.doe@example.com",
+      "image": "/property/image/men/sunGlass.jpg"
     }
   ],
   "woman": [
