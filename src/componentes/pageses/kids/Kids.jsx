@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
 import Header from "../../header/Header";
 
 export const Kids = () => {
-  const [tere, setTere] = useState("");
   const deleteiteam = [
     { name: "bahalul", age: 32, ocupation: "It" },
     { name: "alvin", age: 1, ocupation: "Not yet" },

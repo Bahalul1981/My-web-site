@@ -60,6 +60,7 @@ export const Men = () => {
             <img
               style={{ height: "300px", width: "200px" }}
               src={`http://localhost:3001${selectedProduct.image}`}
+              alt={selectedProduct.name}
             />
             <p>{selectedProduct.description}</p>
             <p>{selectedProduct.price}</p>
