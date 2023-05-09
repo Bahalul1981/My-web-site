@@ -1,6 +1,75 @@
+.men-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
 .men-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f186;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  max-width: 300px;
+}
+
+.men-page:hover {
+  transform: translateY(-5px);
+}
+
+.men-page img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.men-page h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.men-page p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.men-page-container-details {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px;
+}
+
+.men-page-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 80%;
+  background-color: rgba(250, 235, 215, 0.076);
+}
+
+.add-to-cart-button {
+  text-align: center;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
   cursor: pointer;
+  margin: 30px;
 }

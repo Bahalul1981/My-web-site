@@ -7,11 +7,7 @@ import { Icon } from "@blueprintjs/core";
 import "./addCart.css";
 import emailjs from "emailjs-com";
 
-import {
-  addToCart,
-  removeFromCart,
-  updateUser,
-} from "../../state/addToCartSlice";
+import { removeFromCart, updateUser } from "../../state/addToCartSlice";
 
 export function AddToCart() {
   const items = useSelector((state) => state.products.items.addtoCart);
@@ -19,6 +15,7 @@ export function AddToCart() {
   const totalPrice = items.reduce((total, item) => total + item.price, 0);
   const [shoUserDetails, setShoUserDetails] = useState(false);
   const [userDetails, setUserDetails] = useState({});
+  console.log(userDetails);
   const form = useRef();
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -51,7 +48,7 @@ export function AddToCart() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Your massage is success");
+          alert("Please check your E-mail");
         },
         (error) => {
           console.log(error.text);
