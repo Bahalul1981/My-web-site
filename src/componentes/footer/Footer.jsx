@@ -117,20 +117,22 @@ function Footer() {
             <h3>Our mission and vission</h3>
           </div>
           <div className="footer-our-mission-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nihil
-            ipsa veritatis facilis aperiam recusandae sunt ipsum animi amet sed
-            consequuntur minus, a error maxime perferendis voluptatum quo cum
-            nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Totam neque assumenda magni fugiat dolorum sit nulla temporibus.
-            Aperiam dolores autem et exercitationem. Eaque fuga molestiae
-            consectetur adipisci nemo sunt omnis!
+            Our mission is to establish a fashion brand that embodies
+            cutting-edge design, exceptional quality, and affordable pricing. We
+            constantly strive to present new and innovative products to our
+            customers, ensuring their satisfaction. Our goal is to comprehend
+            customer demands and deliver outstanding results that exceed their
+            expectations. By 2026, we aim to become a prominent mid-level
+            company in Sweden, with our ultimate destination being Bangladesh,
+            where we plan to establish ourselves as a mid-level enterprise by
+            2030.
           </div>
         </div>
         <div className="footer-text-our-mission">
           <div className="footer-our-mission">
             <h3>Social media link</h3>
           </div>
-          <div className="footer-our-mission-text">
+          <div className="">
             <li>
               <a href="*">Face Book</a>
             </li>

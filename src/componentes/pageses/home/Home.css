@@ -43,3 +43,7 @@
 .under-home-page h1 {
   margin: 0;
 }
+.home-page-background {
+  height: 700px;
+  width: 100%;
+}

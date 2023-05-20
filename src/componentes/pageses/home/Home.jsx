@@ -3,14 +3,19 @@ import "./Home.css";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 import { NewArraivel } from "../newArrivel/NewArraivel";
+
 export const Home = () => {
   return (
     <div className="home-main-body">
       <Header />
       <div className="home-video-page">
+        {/* <img
+          className="home-page-background"
+          src={process.env.PUBLIC_URL + "/property/image/women/hand.jpg"}
+        /> */}
         <video autoPlay loop muted className="video-background">
           <source
-            src={process.env.PUBLIC_URL + "property/video/home-page.MP4"}
+            src={process.env.PUBLIC_URL + "property/image/women/home-page.MP4"}
             type="video/mp4"
           />
         </video>

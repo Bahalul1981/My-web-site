@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "shirt",
-      "price": 95,
+      "price": 189,
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
       "email": "jane.doe@example.com",
       "image": "/property/image/men/shirt.jpg"
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "name": "Sun glass",
+      "name": "Sunglass",
       "price": 299,
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur doloremque qui reiciendis optio aliquid quaerat nemo laboriosam beatae, tempore a nisi aperiam quasi sed amet saepe repellendus minus! Voluptatem.",
       "email": "jane.doe@example.com",
