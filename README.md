@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+// What I installed for backend:
+
+1. npm install -y
+2. npm install -g nodemon
+3. npm install dotenv (To keep server privet)
+4. npm install --save-dev nodemon
+5. npm install express cors
+6. npm install body-parser
+7.
